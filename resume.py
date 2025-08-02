@@ -4,7 +4,7 @@ RESUME_DATA ={
             "degree":"Bachelor Of Science",
             "course":"Animal & Environmental Biology",
             "school":"Rivers State University",
-            "year": "2020 - 2024",
+            "year": "2021 - 2024",
             "location": "Rivers State, Nigeria",
             "details": "A graduate of Animal and Environmental Biology, Rivers State University, Nigeria."
             }
