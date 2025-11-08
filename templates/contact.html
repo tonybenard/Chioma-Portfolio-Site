@@ -12,13 +12,6 @@
                         </div>
                         <div class="row gx-5 justify-content-center">
                             <div class="col-lg-8 col-xl-6">
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- * * SB Forms Contact Form * *-->
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- This form is pre-integrated with SB Forms.-->
-                                <!-- To make this form functional, sign up at-->
-                                <!-- https://startbootstrap.com/solution/contact-forms-->
-                                <!-- to get an API token!-->
                                  {% with messages = get_flashed_messages() %}
                                  {% if messages %}
                                  {% for message in messages %}
@@ -27,10 +20,6 @@
                                  {% endif %}
                                  {% endwith %}
                                 {{render_form(form, novalidate=True, button_map={"submit": "primary"})}}
-                                    <!-- Submit success message-->
-                                    <!---->
-                                    <!-- This is what your users will see when the form-->
-                                    <!-- has successfully submitted-->
                             </div>
                         </div>
                     </div>
