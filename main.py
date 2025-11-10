@@ -82,4 +82,4 @@ def resume():
     return render_template("resume.html", resume=RESUME_DATA, year=current_year)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
